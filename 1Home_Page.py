@@ -1,4 +1,4 @@
-import streamlit as st
+\import streamlit as st
 
 
 st.set_page_config(
@@ -38,12 +38,17 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-
+st.write("Open the menu > upload data and start analysis")
 # Add a title or description
 st.write("We'd love to hear your feedback! Please let us know what to improve in the app.")
 
 # Create a text area for user input
-feedback = st.text_area("What would you like to see improve in this app?", "")
+feedback = st.text_area("\
+\
+\
+\
+\
+What would you like to see improve in this app?", "")
 
 # Add a button to submit feedback
 if st.button("Submit Feedback"):
