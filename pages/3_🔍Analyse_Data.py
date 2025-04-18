@@ -59,7 +59,7 @@ if "data" in st.session_state:
 
    
     st.markdown("<h2 style='color: black;'>2. BIVARIATE ANALYSIS</h2>", unsafe_allow_html=True)
-    st.write("** Bivariate analysis - Two-way tables **")
+    st.write("**Bivariate analysis - Two-way tables**")
     outcome_variable = st.selectbox("Select the Outome Variable", data.columns)
     explanatory_variables = st.multiselect("Select the Explanatory Variables", [col for col in data.columns if col != outcome_variable])
     bivariate_crosstabs = []
