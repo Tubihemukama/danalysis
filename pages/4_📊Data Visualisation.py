@@ -24,7 +24,7 @@ if "data" in st.session_state:
     numeric_columns = data.select_dtypes(include='number').columns
 
     #Histogram for each numeric variable
-    st.write('Data Visualisation')
+
     column = st.selectbox('Selecet a column to visualise ', numeric_columns)
     #Display histogram
     st.write(f"Histogram of Column {column}")
