@@ -11,12 +11,12 @@ st.set_page_config(
 
 
 st.title("📊 Visualization Page")
-st.write("Create plots and charts here.")
+st.write("**Create plots and charts here**")
 
 #Basic Statistics
 if "data" in st.session_state:
     data = st.session_state.data
-    st.write('Some statistics')
+ 
         
     #Visualisation
 
