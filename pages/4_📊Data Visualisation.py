@@ -64,14 +64,7 @@ if "data" in st.session_state:
     sns.scatterplot(data= data, x = x_column, y = y_column)
     st.pyplot(plt)
 
-    #Frequency Distribution
 
-    non_numeric_columns = data.select_dtypes(include=["object", "string", "category"]).columns
-
-    st.write("**Frequency Distribution**")
-    what_to_analyse = {"Descriptive Statistics for Selected varaibles":'few_vars', "Frequency Distributin for all Variables":"all_vars"}
-    to_pick1 = st.selectbox("How many variables do you want to analyse", list(what_to_analyse.keys()))
-    selected_type = what_to_analyse[to_pick1]
 
 
 else:
