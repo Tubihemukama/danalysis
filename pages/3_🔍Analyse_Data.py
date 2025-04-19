@@ -13,7 +13,7 @@ st.markdown("<h1 style='color: white; background: green;'>🔍 CARRY OUT ANALYSI
 
 #Basic Statistics
 if "data" in st.session_state:
-    st.markdown("<h2 style='color: black;'>1. UNIVARIATE ANALYSIS</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='color: white; background: green;'>1. UNIVARIATE ANALYSIS</h2>", unsafe_allow_html=True)
     data = st.session_state.data
    
    
@@ -58,7 +58,7 @@ if "data" in st.session_state:
 
 
    
-    st.markdown("<h2 style='color: black;'>2. BIVARIATE ANALYSIS</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='color: white; background: green;'>2. BIVARIATE ANALYSIS</h2>", unsafe_allow_html=True)
     st.write("**Bivariate analysis - Two-way tables**")
     outcome_variable = st.selectbox("Select the Outome Variable", data.columns)
     explanatory_variables = st.multiselect("Select the Explanatory Variables", [col for col in data.columns if col != outcome_variable])
