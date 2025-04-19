@@ -8,7 +8,7 @@ st.set_page_config(
     page_icon= "🔍"
 )
 #CSS
-st.markdown("<h1 style='color: white;'>🔍 CARRY OUT ANALYSIS HERE</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='color: white; background: green;'>🔍 CARRY OUT ANALYSIS HERE</h1>", unsafe_allow_html=True)
 
 
 #Basic Statistics
