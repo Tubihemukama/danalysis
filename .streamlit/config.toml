@@ -1,0 +1,14 @@
+[theme]
+primaryColor = "#00FF6A"        # Bright green for bullish, upward energy
+backgroundColor = "#0B0F12"     # Dark background for a trading-terminal vibe
+secondaryBackgroundColor = "#1C1F26"
+textColor = "#FFFFFF"
+font = "sans serif"
+
+[server]
+headless = true
+port = 8501
+enableCORS = false
+
+[client]
+toolbarMode = "minimal"
